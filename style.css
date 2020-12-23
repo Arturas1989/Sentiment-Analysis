@@ -13,13 +13,13 @@ body{
         margin-top: 50px;
     }
         section{
+            margin-left: 1.5%;
+            margin-right: 1.5%;
             float:left; 
             margin-top: 30px;
-            margin-left: 1%;
-            margin-right: 1%;
             display:inline-block;
             border-radius: 20px;
-            width: 31%;
+            width: 31.3%;
             background-color: white;
             text-align: center;
         }
@@ -52,11 +52,11 @@ body{
                 text-transform: uppercase; 
             }
         main{
-            margin-left: 1%;
-            margin-right: 1%;
+            
+            margin-right: 1.5%;
             display:inline-block;
             border-radius: 20px;
-            width: 31%;
+            width: 31.3%;
             background-color:white;
             text-align: center;
         }
@@ -81,10 +81,10 @@ body{
                 background-color: #FFF7E0;
             }
         div > div {
-            margin-right: 1%;
+            margin-right: 1.5%;
             display:inline-block;
             border-radius: 20px;
-            width: 31%;
+            width: 31.3%;
             background-color:white;
             text-align: center;
             float: right;  
