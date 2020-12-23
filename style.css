@@ -4,12 +4,12 @@ body{
     h1{
         text-align: center;
         margin-top: 10px;
-        font-family:Arial, Helvetica, sans-serif;
-        font-weight: normal;
+        font-family: 'Roboto', sans-serif;
+        
     }
     body > div{
-        margin-left: 25%;
-        margin-right: 25%;
+        width: 800px;
+        margin-left: calc((100% - 800px)/2);
         margin-top: 50px;
     }
         section{
@@ -81,15 +81,13 @@ body{
                 background-color: #FFF7E0;
             }
         div > div {
-            margin-left: 1%;
             margin-right: 1%;
             display:inline-block;
             border-radius: 20px;
             width: 31%;
             background-color:white;
             text-align: center;
-            float: right; 
-            margin-right: 1%; 
+            float: right;  
             margin-top: 30px;
         }
         
