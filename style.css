@@ -7,7 +7,7 @@ body{
         font-family: 'Roboto', sans-serif;
         
     }
-    body > div{
+    .trys-stulpeliai{
         width: 800px;
         margin-left: calc((100% - 800px)/2);
         margin-top: 50px;
@@ -24,13 +24,20 @@ body{
             text-align: center;
         }
             img{}
-            p{
+            .p-3stulepliai{
                 font-family:Verdana, Geneva, Tahoma, sans-serif;
                 line-height: 1.5;
                 display: inline-block;
                 font-size: 20px; 
                 margin-left: 40px; 
                 margin-right: 40px;
+            }
+            .p-3stuleplis{
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                line-height: 1.5;
+                display: inline-block;
+                font-size: 20px; 
+                margin: 0;
             }
                 section > p > mark{
                     background-color: #E4F8ED;
@@ -51,7 +58,7 @@ body{
                 margin-bottom: 20px; 
                 text-transform: uppercase; 
             }
-        main{
+        .main{
             
             margin-right: 1.5%;
             display:inline-block;
@@ -60,7 +67,7 @@ body{
             background-color:white;
             text-align: center;
         }
-            img{
+            .img-stulpeliai{
                 display:inline-block;  
                 margin-left: auto;
                 margin-right: auto; 
@@ -94,9 +101,7 @@ body{
             div > div > img{
                 margin-right: 5%
             }
-            div > div > p{
-                margin: 0;
-            }
+            
                 div > div > p > mark{
                     background-color: #FEECEC;
                 }
@@ -105,23 +110,29 @@ body{
                     color: #FE6666;
                     background-color: #FEECEC;
                 }
-    table{
-        border: none;
-        margin-top: 150px;
-        margin-left: auto;
-        margin-right: auto;
+    
+    .main-apacia{
+        margin-top: 136px;
+        width: 176px;
+        margin-left: calc((100% - 176px)/2);
     }
-        tr{}
-            td {
-                border: none;
+    
+        .apatine-dalis{
+            display:inline-block;
+            
+            height: 89px;
+            float: left;
+        }
+            .div-p{
+
             }
-                td > img{
-                    margin: 0; 
-                    display: table-cell; 
-                    vertical-align: middle;
+                .p-apatine-dalis{
+                margin: 0;
+                line-height: 89px;
+                text-align: center;
+                display:inline-block;
+                
                 }
-            td{}
-                td > p{
-                    display: table-cell; 
-                    vertical-align: middle;
+                .img-apacia{
+                    margin: 0;
                 }
